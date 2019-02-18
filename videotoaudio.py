@@ -1,6 +1,6 @@
 import speech_recognition as sr
 import moviepy.editor as mp
-clip = mp.VideoFileClip("testvid.mp4").subclip(0,60)
+clip = mp.VideoFileClip("kid.mp4").subclip(0,30)
 clip.audio.write_audiofile("theaudio.wav")
 r = sr.Recognizer()
 audio ='theaudio.wav'
